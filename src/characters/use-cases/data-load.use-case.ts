@@ -1,6 +1,6 @@
 import { Inject, Injectable } from "@nestjs/common";
 import { CharacterRepository } from "../interfaces/character-service.interface";
-import { WandRepository } from "../../wand/interfaces/wand-interface.interface";
+import { WandRepository } from "../../wand/interfaces/wand-service.interface";
 import { Wand } from "../../wand/entities/wand.entity";
 import { Character } from "../entities/character.entity";
 import { CharactersApiService } from "../services/characters-api.service";
